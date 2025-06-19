@@ -1,0 +1,202 @@
+{
+    "title": "Test GIS - Pełna wersja (1–61)",
+    "description": "Egzamin z wiedzy o systemach informacji przestrzennej.",
+    "questions": [
+        {
+            "question": "Rozmiar bufora utworzonego wokół danego obiektu to",
+            "options": [
+                "długość obwodu linii buforowej",
+                "pole powierzchni obiektu powiększone o pole powierzchni bufora",
+                "pole powierzchni strefy buforowej",
+                "odległość prostopadła do granicy bufora od obiektu"
+            ],
+            "correct_answer": "odległość prostopadła do granicy bufora od obiektu"
+        },
+        {
+            "question": "W plikach SHAPE przechowywane są dane określone w modelu:",
+            "options": [
+                "gridowym",
+                "wektorowym",
+                "żadna z pozostałych",
+                "rastrowym"
+            ],
+            "correct_answer": "wektorowym"
+        },
+        {
+            "question": "Model rastrowy NIE może być wykorzystany do przrechowywany danych o charakterze:",
+            "options": [
+                "dyskretnym",
+                "ciągłym",
+                "topologicznym",
+                "obrazowym"
+            ],
+            "correct_answer": "topologicznym"
+        },
+        {
+            "question": "Jeśli na dowolnej mapie wyświetlanej na ekranie komputera zmienisz skale Polski z 1:100000 na 1:500000, wówczas obraz Polski zostanie powiększony?",
+            "options": [
+                "fałsz",
+                "prawda"
+            ],
+            "correct_answer": "fałsz"
+        },
+        {
+            "question": "Czy warstwa tematyczna programu ArCGIS zawiera w sobie dane?",
+            "options": [
+                "tak",
+                "tylko wektorowe",
+                "nie",
+                "tylko rastrowe"
+            ],
+            "correct_answer": "tak"
+        },
+        {
+            "question": "Opcja dociągnij poprawy błędu węzła wiszącego w programie ArcMap powoduje",
+            "options": [
+                "wydłużenie zbyt krótkiej linii do przecięcia z najbliższą inną linią",
+                "przesunięcie wiszącego węzła (do końca linii) do najbliższego węzła",
+                "żadna z odpowiedzi",
+                "skrócenie zbyt długiej linii miejsca z inną linią"
+            ],
+            "correct_answer": "przesunięcie wiszącego węzła (do końca linii) do najbliższego węzła"
+        },
+        {
+            "question": "Metadane to",
+            "options": [
+                "żadna z pozostałych odpowiedzi",
+                "dane o danych",
+                "dane numeryczne zakodowane do postaci czytelnej dla komputer",
+                "duże zbioru danych(ang. big data)"
+            ],
+            "correct_answer": "dane o danych"
+        },
+        {
+            "question": "Właściwą nazwą oprogramowania z rodziny GIS to",
+            "options": [
+                "ESRI GIS",
+                "ArcGIS for Desktop Advanced",
+                "ArcCAtalog, ArcMap and ArcToolbox systems",
+                "Arcinfo for Desktop Advenced"
+            ],
+            "correct_answer": "ArcGIS for Desktop Advanced"
+        },
+        {
+            "question": "Do zapytań atrybutowych w bazach danych wykorzystuje się",
+            "options": [
+                "język Python",
+                "język XML",
+                "żadna z opowiedzi",
+                "język SQL"
+            ],
+            "correct_answer": "język SQL"
+        },
+        {
+            "question": "Skrót WFS oznacza",
+            "options": [
+                "Web Future System",
+                "Web Figure Service",
+                "Web Feature Service",
+                "Web Fare System"
+            ],
+            "correct_answer": "Web Feature Service"
+        },
+        {
+            "question": "Wynikiem selekcji działek według położenia z warunkiem „całkowicie zawierają” względem budynków są:",
+            "options": [
+                "działki, wewnątrz których znajduje się przynajmniej cześć budynku",
+                "działki, wewnątrz których znajduje się przynajmniej jeden cały budynek, nie dotykający granicy działki",
+                "części działek znajdujące się wewnątrz budynków",
+                "działki, wewnątrz których znajduje się przynajmniej jeden cały budynek (także taki który dotyka granicy działki)"
+            ],
+            "correct_answer": "działki, wewnątrz których znajduje się przynajmniej jeden cały budynek (także taki który dotyka granicy działki)"
+        },
+        {
+            "question": "Jakiego narzędzia użyjesz do tworzenia obszaru ochronnego określonej odległości wokół elektrowni atomowej?",
+            "options": [
+                "złączenie atrybutowe",
+                "selekcja według atrybutów",
+                "selekcja według położenia",
+                "bufor",
+                "złączenie przestrzenne"
+            ],
+            "correct_answer": "bufor"
+        },
+        {
+            "question": "W kolumnie tabeli atrybutów typu Całkowite Długie można zapisać wartości z zakresu",
+            "options": [
+                "+/- 1.8308 podwójne",
+                "+/- 2 miliardy – całkowite długie",
+                "+/- 1.238 - rzeczywiste",
+                "+/- 32 tysiące – całkowite krótkie"
+            ],
+            "correct_answer": "+/- 2 miliardy – całkowite długie"
+        },
+        {
+            "question": "Dopasuj związek pomiędzy klasami obiektów w języku UML do jego definicji: Trwale powiązanie pomiędzy obiektami dwóch klas(np. firma zatrudnia pracowników)",
+            "options": [
+                "asocjacja",
+                "agregacja",
+                "dziedziczenie"
+            ],
+            "correct_answer": "asocjacja"
+        },
+        {
+            "question": "Atrybuty w relacyjnej bazie danych zapisywany jest w postaci",
+            "options": [
+                "tabeli",
+                "kolumny tabeli",
+                "żadna z odpowiedzi",
+                "wiersza tabeli"
+            ],
+            "correct_answer": "kolumny tabeli"
+        },
+        {
+            "question": "Plik o rozszerzeniu nazwy z literą „w” na końcu zawierają",
+            "options": [
+                "informacje o wielkości piksela i liczbie pikseli rastra",
+                "informacje o wielkości piksela oraz liczbie wierszy i kolumn rastra",
+                "parametry kalibracji rastra",
+                "piramidy"
+            ],
+            "correct_answer": "parametry kalibracji rastra"
+        },
+        {
+            "question": "Zestaw danych może zawierać kilka klas obiektów o różnych układach współrzędnych",
+            "options": [
+                "Prawda",
+                "Fałsz"
+            ],
+            "correct_answer": "Fałsz"
+        },
+        {
+            "question": "Dane przestrzenne dotyczą obiektów przestrzennych, czyli",
+            "options": [
+                "obiektów stworzonych przez człowieka (antropogenicznych), które znajdują się w przeciętnym układzie współrzędnych",
+                "zjawisk zachodzących w przyjętym układzie współrzędnych",
+                "obiektów naturalnych, które znajdują się w przyjętym układzie współrzędnych",
+                "procesów zachodzących w przyjętym układzie współrzędnych"
+            ],
+            "correct_answer": "zjawisk zachodzących w przyjętym układzie współrzędnych"
+        },
+        {
+            "question": "Geobaza osobista programu ArcGIS jest zapisywana w plikach w formacie",
+            "options": [
+                "Microsoft PowePoint",
+                "Microsoft Access",
+                "Microsoft Excel",
+                "Microsoft Word"
+            ],
+            "correct_answer": "Microsoft Access"
+        },
+        {
+            "question": "TIN jest modelem:",
+            "options": [
+                "żadna z powyższych",
+                "rastrowym",
+                "gridowym",
+                "wektorowym"
+            ],
+            "correct_answer": "wektorowym"
+        }
+    ]
+}
