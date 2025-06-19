@@ -2,201 +2,354 @@
     "title": "Test GIS - Pełna wersja (1–61)",
     "description": "Egzamin z wiedzy o systemach informacji przestrzennej.",
     "questions": [
-        {
-            "question": "Rozmiar bufora utworzonego wokół danego obiektu to",
-            "options": [
-                "długość obwodu linii buforowej",
-                "pole powierzchni obiektu powiększone o pole powierzchni bufora",
-                "pole powierzchni strefy buforowej",
-                "odległość prostopadła do granicy bufora od obiektu"
-            ],
-            "correct_answer": "odległość prostopadła do granicy bufora od obiektu"
-        },
-        {
-            "question": "W plikach SHAPE przechowywane są dane określone w modelu:",
-            "options": [
-                "gridowym",
-                "wektorowym",
-                "żadna z pozostałych",
-                "rastrowym"
-            ],
-            "correct_answer": "wektorowym"
-        },
-        {
-            "question": "Model rastrowy NIE może być wykorzystany do przrechowywany danych o charakterze:",
-            "options": [
-                "dyskretnym",
-                "ciągłym",
-                "topologicznym",
-                "obrazowym"
-            ],
-            "correct_answer": "topologicznym"
-        },
-        {
-            "question": "Jeśli na dowolnej mapie wyświetlanej na ekranie komputera zmienisz skale Polski z 1:100000 na 1:500000, wówczas obraz Polski zostanie powiększony?",
-            "options": [
-                "fałsz",
-                "prawda"
-            ],
-            "correct_answer": "fałsz"
-        },
-        {
-            "question": "Czy warstwa tematyczna programu ArCGIS zawiera w sobie dane?",
-            "options": [
-                "tak",
-                "tylko wektorowe",
-                "nie",
-                "tylko rastrowe"
-            ],
-            "correct_answer": "tak"
-        },
-        {
-            "question": "Opcja dociągnij poprawy błędu węzła wiszącego w programie ArcMap powoduje",
-            "options": [
-                "wydłużenie zbyt krótkiej linii do przecięcia z najbliższą inną linią",
-                "przesunięcie wiszącego węzła (do końca linii) do najbliższego węzła",
-                "żadna z odpowiedzi",
-                "skrócenie zbyt długiej linii miejsca z inną linią"
-            ],
-            "correct_answer": "przesunięcie wiszącego węzła (do końca linii) do najbliższego węzła"
-        },
-        {
-            "question": "Metadane to",
-            "options": [
-                "żadna z pozostałych odpowiedzi",
-                "dane o danych",
-                "dane numeryczne zakodowane do postaci czytelnej dla komputer",
-                "duże zbioru danych(ang. big data)"
-            ],
-            "correct_answer": "dane o danych"
-        },
-        {
-            "question": "Właściwą nazwą oprogramowania z rodziny GIS to",
-            "options": [
-                "ESRI GIS",
-                "ArcGIS for Desktop Advanced",
-                "ArcCAtalog, ArcMap and ArcToolbox systems",
-                "Arcinfo for Desktop Advenced"
-            ],
-            "correct_answer": "ArcGIS for Desktop Advanced"
-        },
-        {
-            "question": "Do zapytań atrybutowych w bazach danych wykorzystuje się",
-            "options": [
-                "język Python",
-                "język XML",
-                "żadna z opowiedzi",
-                "język SQL"
-            ],
-            "correct_answer": "język SQL"
-        },
-        {
-            "question": "Skrót WFS oznacza",
-            "options": [
-                "Web Future System",
-                "Web Figure Service",
-                "Web Feature Service",
-                "Web Fare System"
-            ],
-            "correct_answer": "Web Feature Service"
-        },
-        {
-            "question": "Wynikiem selekcji działek według położenia z warunkiem „całkowicie zawierają” względem budynków są:",
-            "options": [
-                "działki, wewnątrz których znajduje się przynajmniej cześć budynku",
-                "działki, wewnątrz których znajduje się przynajmniej jeden cały budynek, nie dotykający granicy działki",
-                "części działek znajdujące się wewnątrz budynków",
-                "działki, wewnątrz których znajduje się przynajmniej jeden cały budynek (także taki który dotyka granicy działki)"
-            ],
-            "correct_answer": "działki, wewnątrz których znajduje się przynajmniej jeden cały budynek (także taki który dotyka granicy działki)"
-        },
-        {
-            "question": "Jakiego narzędzia użyjesz do tworzenia obszaru ochronnego określonej odległości wokół elektrowni atomowej?",
-            "options": [
-                "złączenie atrybutowe",
-                "selekcja według atrybutów",
-                "selekcja według położenia",
-                "bufor",
-                "złączenie przestrzenne"
-            ],
-            "correct_answer": "bufor"
-        },
-        {
-            "question": "W kolumnie tabeli atrybutów typu Całkowite Długie można zapisać wartości z zakresu",
-            "options": [
-                "+/- 1.8308 podwójne",
-                "+/- 2 miliardy – całkowite długie",
-                "+/- 1.238 - rzeczywiste",
-                "+/- 32 tysiące – całkowite krótkie"
-            ],
-            "correct_answer": "+/- 2 miliardy – całkowite długie"
-        },
-        {
-            "question": "Dopasuj związek pomiędzy klasami obiektów w języku UML do jego definicji: Trwale powiązanie pomiędzy obiektami dwóch klas(np. firma zatrudnia pracowników)",
-            "options": [
-                "asocjacja",
-                "agregacja",
-                "dziedziczenie"
-            ],
-            "correct_answer": "asocjacja"
-        },
-        {
-            "question": "Atrybuty w relacyjnej bazie danych zapisywany jest w postaci",
-            "options": [
-                "tabeli",
-                "kolumny tabeli",
-                "żadna z odpowiedzi",
-                "wiersza tabeli"
-            ],
-            "correct_answer": "kolumny tabeli"
-        },
-        {
-            "question": "Plik o rozszerzeniu nazwy z literą „w” na końcu zawierają",
-            "options": [
-                "informacje o wielkości piksela i liczbie pikseli rastra",
-                "informacje o wielkości piksela oraz liczbie wierszy i kolumn rastra",
-                "parametry kalibracji rastra",
-                "piramidy"
-            ],
-            "correct_answer": "parametry kalibracji rastra"
-        },
-        {
-            "question": "Zestaw danych może zawierać kilka klas obiektów o różnych układach współrzędnych",
-            "options": [
-                "Prawda",
-                "Fałsz"
-            ],
-            "correct_answer": "Fałsz"
-        },
-        {
-            "question": "Dane przestrzenne dotyczą obiektów przestrzennych, czyli",
-            "options": [
-                "obiektów stworzonych przez człowieka (antropogenicznych), które znajdują się w przeciętnym układzie współrzędnych",
-                "zjawisk zachodzących w przyjętym układzie współrzędnych",
-                "obiektów naturalnych, które znajdują się w przyjętym układzie współrzędnych",
-                "procesów zachodzących w przyjętym układzie współrzędnych"
-            ],
-            "correct_answer": "zjawisk zachodzących w przyjętym układzie współrzędnych"
-        },
-        {
-            "question": "Geobaza osobista programu ArcGIS jest zapisywana w plikach w formacie",
-            "options": [
-                "Microsoft PowePoint",
-                "Microsoft Access",
-                "Microsoft Excel",
-                "Microsoft Word"
-            ],
-            "correct_answer": "Microsoft Access"
-        },
-        {
-            "question": "TIN jest modelem:",
-            "options": [
-                "żadna z powyższych",
-                "rastrowym",
-                "gridowym",
-                "wektorowym"
-            ],
-            "correct_answer": "wektorowym"
-        }
+  {
+    "question": "Zaznacz poprawnie zapisane warunki selekcji według atrybutów:",
+    "options": [
+      "[LICZBA]>24 AND < 30",
+      "[Przedmiot] LIKE ‘Systemy%’",
+      "24<[Liczba]<30",
+      "[Liczba]>24 AND [Liczba]<30",
+      "”Przedmiot” IN (‘SIT I’, ‘SIT II’, ‘SIG’)",
+      "”Przedmiot”LIKE ‘Systemy*’"
+    ]
+  },
+  {
+    "question": "Prostokąt zasięgu w programie ArcMap służy do:",
+    "options": [
+      "określania minimalnych i maksymalnych współrzędnych obiektu",
+      "żadna z odpowiedzi",
+      "pokazania zasięgu przestrzennego jednej ramki danych w drugiej",
+      "pokazania zasięgu przestrzennego wybranego obiektu"
+    ]
+  },
+  {
+    "question": "Zaznacz zalecane zastosowania plików w formacie JPEG:",
+    "options": [
+      "zdjęcia cyfrowe",
+      "usługa WMS",
+      "skany papierowych map",
+      "eksport arkuszy map (kompozycji mapowych z programowania GIS)"
+    ]
+  },
+  {
+    "question": "Zaznacz organizacje normalizacyjne i standaryzacyjne działające w zakresie informacji Geograficznej:",
+    "options": [
+      "Sejm RP",
+      "Rada Unii Europejskiej",
+      "Komisja Europejska",
+      "European Committee for Standardization (CEN)",
+      "Parlament Europejski",
+      "Open Geospatial Consortium (OGC)",
+      "Senat RP",
+      "International Organization for Standardization (ISO)",
+      "Polski Komitet Normalizacyjny (PKN)"
+    ]
+  },
+  {
+    "question": "Ekspozycja (ang. Aspect) to:",
+    "options": [
+      "kąt nachylenia terenu względem kierunku padania promieni słonecznych",
+      "kąt nachylenia terenu względem pionu",
+      "kąt nachylenia terenu względem poziomu",
+      "azymut linii maksymalnego nachylenia terenu względem pionu",
+      "azymut linii maksymalnego nachylenia terenu względem kierunku padania promieni słonecznych",
+      "azymut linii maksymalnego nachylenia terenu względem poziomu"
+    ]
+  },
+  {
+    "question": "Reguły topologiczne w programie ArcGIS mogą badać relacje przestrzenne pomiędzy obiektami z więcej niż jednej klasy obiektów:",
+    "options": [
+      "prawda",
+      "fałsz"
+    ]
+  },
+  {
+    "question": "Dane w modelu rastrowym zapisywane są w postaci:",
+    "options": [
+      "linii prostych",
+      "żadna z pozostałych odpowiedzi",
+      "macierzy",
+      "bazy danych"
+    ]
+  },
+  {
+    "question": "Skrót GML oznacza:",
+    "options": [
+      "Geodesic Markup Language",
+      "Geodesy Markup Language",
+      "Geography Markup Language",
+      "GIS Markup Language",
+      "Geology Markup Language"
+    ]
+  },
+  {
+    "question": "W plikach w formacie JPEG stosowana jest kompresja:",
+    "options": [
+      "nadmiarowa",
+      "stratna",
+      "bezstratna",
+      "niedomiarowa"
+    ]
+  },
+  {
+    "question": "Właściwą nazwą jednego z programów GIS jest:",
+    "options": [
+      "Quantum GIS",
+      "qgis",
+      "QGIS",
+      "Qgis"
+    ]
+  },
+  {
+    "question": "W plikach *.sid przechowywane są dane w modelu:",
+    "options": [
+      "liniowym",
+      "wektorowym",
+      "TIN",
+      "rastrowym",
+      "punktowym",
+      "poligonowym"
+    ]
+  },
+  {
+    "question": "Zaznacz standardowe (domyślne) kolumny w tabeli atrybutów zapisanej w geobazie programu ArcGIS:",
+    "options": [
+      "OBJECTED",
+      "Shape",
+      "Nr_dzialki",
+      "Shape_Area",
+      "Cena",
+      "Shape_Length",
+      "Właściciel"
+    ]
+  },
+  {
+    "question": "W widoku danych w programie ArcMap w tym samym czasie możemy oglądać więcej niż jedną ramkę danych:",
+    "options": [
+      "PRAWDA",
+      "FAŁSZ"
+    ]
+  },
+  {
+    "question": "Wynikiem transpozycji dyrektywy INSPIRE do polskiego prawa jest:",
+    "options": [
+      "rozporządzenie MRRiB z 12 lipca 2001 r. w sprawie szczegółowych zasad i trybu założenia i prowadzenia krajowego systemu informacji o terenie",
+      "rozporządzenie MSWiA z 20 października 2010 r. w sprawie ewidencji zbiorów i usług danych przestrzennych objętych infrastrukturą informacji przestrzennej",
+      "ustawa o infrastrukturze informacji przestrzennej z 4 marca 2010 r.",
+      "rozporządzenie MSWiA z 13 września 2010 r. z sprawie Rady Infrastruktury Informacji Przestrzennej"
+    ]
+  },
+  {
+    "question": "Warstwa tematyczna w programie ArcGIS:",
+    "options": [
+      "jest klasą obiektów geobazy",
+      "jest rastrem",
+      "jest plikiem shape",
+      "jest skrótem do źródła danych",
+      "przechowuje informacje o sposobie prezentacji (symbolizacji) danych na mapie"
+    ]
+  },
+  {
+    "question": "Zaznacz modele danych stosowane w bazach danych (nieprzestrzennych):",
+    "options": [
+      "internetowy",
+      "topologiczny",
+      "relacyjny",
+      "generalizacyjny",
+      "wskaźnikowy",
+      "obiektowy",
+      "sieciowy",
+      "hierarchiczny"
+    ]
+  },
+  {
+    "question": "Tabela atrybutów ma zbiór rastrowy zawierający dane o charakterze:",
+    "options": [
+      "ciągłym",
+      "obrazowym",
+      "żadna z pozostałych",
+      "dyskretnym"
+    ]
+  },
+  {
+    "question": "TIN jest modelem:",
+    "options": [
+      "gridowym",
+      "wektorowym",
+      "rastrowym",
+      "żadna z powyższych"
+    ]
+  },
+  {
+    "question": "Dyrektywa INSPIRE kierowana jest do:",
+    "options": [
+      "jednostek administracji samorządowej i rządowej wymienionych w ustawie o infrastrukturze informacyjnej",
+      "żadna z pozostałych odpowiedzi",
+      "wszystkich obywateli korzystających z danych przestrzennych",
+      "osób fizycznych i prawnych wymienionych w ustawie o infrastrukturze informacji przestrzennej"
+    ]
+  },
+  {
+    "question": "Wynikiem operacji Symetryczna Róznica (ang. …) jest:",
+    "options": [
+      "zbiór A pomniejszony o część wspólną zbiorów A i B",
+      "część wspólna zbiorów A i B",
+      "suma zbiorów A i B pomniejszona o część wspólną zbiorów A i B",
+      "suma zbiorów A i B"
+    ]
+  },
+  {
+    "question": "Zestaw danych w geobazie programu ArcGIS może zawierać klasy obiektów o różnym typie geometrii:",
+    "options": [
+      "prawda",
+      "fałsz"
+    ]
+  },
+  {
+    "question": "Metadane gromadzone zgodnie z dyrektywą INSPIRE miały być w pełni dostępne w roku:",
+    "options": [
+      "2015",
+      "2020",
+      "2017",
+      "2019"
+    ]
+  },
+  {
+    "question": "Wskaż poprawne hierarchie organizacji danych w programie ArcGIS:",
+    "options": [
+      "Geobaza → Klasa obiektów",
+      "Geobaza → Klasa obiektów → Zestaw danych",
+      "Geobaza → Klasa obiektów → Plik shape",
+      "Geobaza → Zestaw danych → Klasa obiektów"
+    ]
+  },
+  {
+    "question": "Którego z poniższych narzędzi należy użyć do wybrania miast znajdujących się w odległości 25km od morza?",
+    "options": [
+      "selekcja według atrybutów",
+      "buforowanie",
+      "selekcja według położenie",
+      "złączenie przestrzenne"
+    ]
+  },
+  {
+    "question": "Metadane tworzymy przy pomocy narzędzi ArcMap:",
+    "options": [
+      "tak",
+      "nie",
+      "tylko dla zbiorów danych wektorowych",
+      "tylko dla zbiorów danych rastrowych"
+    ]
+  },
+  {
+    "question": "Który z warunków selekcji według położenia zapewni wybór wszystkich działek, mających co najmniej jeden wspólny punkt z pewnym buforem?",
+    "options": [
+      "dzielą segment z",
+      "dotykają granicy",
+      "przecinają",
+      "są przecięte przez obrys"
+    ]
+  },
+  {
+    "question": "Czy wynikowe obiekty dziedziczą atrybuty obiektów wycinających fragmenty innych w poleceniu Wytnij (ang. Clip)?",
+    "options": [
+      "tak",
+      "nie"
+    ]
+  },
+  {
+    "question": "Wartości z jakiego zakresu można zapisać w kolumnie tabeli atrybutów typu Podwójna:",
+    "options": [
+      "-2.2E308 do +1.8E308",
+      "-3.4E38 do +1.2E38",
+      "-256 do +255",
+      "-2147483648 do +2147483647"
+    ]
+  },
+  {
+    "question": "W jaki sposób dodaje się nowe obiekty do klasy obiektów zapisanej w geobazie programu ArcGIS?",
+    "options": [
+      "używając narzędzi do edycji metadanych w ArcMap",
+      "edytując właściwości klasy obiektów w ArcCatalogu",
+      "edytując właściwości geobazy w ArcCatalogu",
+      "używając narzędzi do edycji danych w ArcMap"
+    ]
+  },
+  {
+    "question": "W modelu rastrowym dostępne są następujące typy geometrii:",
+    "options": [
+      "żadna z pozostałych odpowiedzi",
+      "piksel, linia, obiekt powierzchniowy",
+      "punkt, linia, poligon",
+      "punkt, linia, klasa obiektów"
+    ]
+  },
+  {
+    "question": "Geobaza osobista programu ArcGIS jest zapisywana na dysku komputera w postaci:",
+    "options": [
+      "foldera",
+      "pliku Microsoft Access (*.mdb)",
+      "żadna z pozostałych odpowiedzi",
+      "pliku z rozszerzeniem .shp"
+    ]
+  },
+  {
+    "question": "Błąd węzła pozornego (pseudowęzła) występuje, gdy węzeł znajduje się na końcu:",
+    "options": [
+      "dwóch linii",
+      "trzech i więcej linii",
+      "tylko jednej linii"
+    ]
+  },
+  {
+    "question": "Wynikiem selekcji według położenia z warunkiem „województwo położone całkowicie wewnątrz Polski” będzie między innymi:",
+    "options": [
+      "żadna z pozostałych odpowiedzi",
+      "województwo świętokrzyskie i województwo małopolskie",
+      "województwo małopolskie",
+      "województwo świętokrzyskie"
+    ]
+  },
+  {
+    "question": "W języku XML encja &gt; zastępuje:",
+    "options": [
+      "znak mniejsze niż (<)",
+      "znak większe niż (>)",
+      "znak równa się (=)",
+      "spację nierozdzielającą"
+    ]
+  },
+  {
+    "question": "Czy plik dokumentu mapy programu ArcGIS (*.mxd) zawiera w sobie dane niezbędne do wykreślenia mapy?",
+    "options": [
+      "tylko wektorowe",
+      "nie",
+      "tak",
+      "tylko rastrowe"
+    ]
+  },
+  {
+    "question": "Wskaż pytania, na które powinny odpowiadać minimalne metadane:",
+    "options": [
+      "kiedy?",
+      "gdzie?",
+      "dokąd?",
+      "skąd?",
+      "kto?",
+      "co?",
+      "dla kogo?",
+      "dlaczego?"
+    ]
+  },
+  {
+    "question": "Polecenie zakończ szkic służy do:",
+    "options": [
+      "przekształcenia obiektu tymczasowego w trwały",
+      "zakończenia edycji bez zapisywania zmian",
+      "zakończenia rysowania części obiektu",
+      "zakończenia edycji i zapisania zmian",
+      "zakończenia rysowania strumieniowego",
+      "zakończenia rysowania całości obiektu",
+      "zawieszenia( chwilowego zatrzymania) działania aktualnie wybranego narzędzia edycyjnego"
     ]
 }
