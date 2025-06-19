@@ -340,13 +340,17 @@
     ]
   },
   {
-    "question": "Polecenie zakończ szkic służy do:",
-    "options": [
-      "przekształcenia obiektu tymczasowego w trwały",
-      "zakończenia edycji bez zapisywania zmian",
-      "zakończenia rysowania części obiektu",
-      "zakończenia edycji i zapisania zmian",
-      "zakończenia rysowania strumieniowego",
-      "zakończenia rysowania całości obiektu",
-      "zawieszenia( chwilowego zatrzymania) działania aktualnie wybranego narzędzia edycyjnego"
-    ]}]}
+    {
+      "question": "Polecenie zakończ szkic służy do:",
+      "options": [
+        "przekształcenia obiektu tymczasowego w trwały",
+        "zakończenia edycji bez zapisywania zmian",
+        "zakończenia rysowania części obiektu",
+        "zakończenia edycji i zapisania zmian",
+        "zakończenia rysowania strumieniowego",
+        "zakończenia rysowania całości obiektu",
+        "zawieszenia( chwilowego zatrzymania) działania aktualnie wybranego narzędzia edycyjnego"
+      ]
+    }
+  ]
+}
